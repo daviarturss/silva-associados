@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 640" width="560" height="640" role="img" aria-labelledby="title desc">
+  <title id="title">Dr. Rafael Silva</title>
+  <desc id="desc">Retrato ilustrado do advogado Rafael Silva, de terno azul-marinho e óculos.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6EFE2"/>
+      <stop offset="1" stop-color="#E9DCC6"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A3A6D"/>
+      <stop offset="1" stop-color="#0A1F44"/>
+    </linearGradient>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#0A1F44" opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="560" height="640" fill="url(#bg)"/>
+  <rect width="560" height="640" fill="url(#dots)"/>
+  <circle cx="280" cy="286" r="206" fill="#E4D3B5" opacity=".7"/>
+  <circle cx="280" cy="286" r="222" fill="none" stroke="#C5A572" stroke-opacity=".45"/>
+  <path d="M64 640V320a216 216 0 0 1 432 0v320" fill="none" stroke="#C5A572" stroke-opacity=".3" stroke-width="2"/>
+
+  <path d="M252 338h56v62c0 17-12 29-28 29s-28-12-28-29Z" fill="#AE714A"/>
+  <path d="M252 352c16 13 40 13 56 0v13c-16 13-40 13-56 0Z" fill="#955C3C" opacity=".5"/>
+
+  <ellipse cx="280" cy="262" rx="76" ry="88" fill="#C08A60"/>
+  <circle cx="205" cy="271" r="13" fill="#C08A60"/>
+  <circle cx="355" cy="271" r="13" fill="#C08A60"/>
+  <path d="M204 263c-4-82 35-121 77-121 44 0 82 39 75 117-11-39-38-56-77-56-40 0-64 18-75 60Z" fill="#6E6C69"/>
+  <path d="M208 243c-7 15-8 33-3 47-12-16-10-38 3-47ZM348 238c8 15 9 33 4 48 13-15 11-37-4-48Z" fill="#8F8D89"/>
+  <path d="M244 210c11-14 26-21 44-21" stroke="#A9A7A3" stroke-width="2" fill="none" stroke-linecap="round" opacity=".8"/>
+
+  <path d="M232 254c10-5 20-5 30 0M298 254c10-5 20-5 30 0" stroke="#4D3B2F" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <circle cx="249" cy="273" r="3.6" fill="#2F2723"/>
+  <circle cx="311" cy="273" r="3.6" fill="#2F2723"/>
+  <rect x="223" y="262" width="49" height="33" rx="11" fill="#FFFFFF" fill-opacity=".07" stroke="#6F5326" stroke-width="2.3"/>
+  <rect x="288" y="262" width="49" height="33" rx="11" fill="#FFFFFF" fill-opacity=".07" stroke="#6F5326" stroke-width="2.3"/>
+  <path d="M272 275h16M223 270l-14-5M337 270l14-5" stroke="#6F5326" stroke-width="2.3" stroke-linecap="round"/>
+  <path d="M280 278v17c0 5-3 8-8 10" stroke="#9A6240" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+  <path d="M259 318c12 7 29 7 42 0" stroke="#8C5540" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M262 333c11 3 25 3 36 0" stroke="#B67D56" stroke-width="1.8" stroke-linecap="round" fill="none" opacity=".55"/>
+
+  <path d="M66 640c7-142 85-223 214-223s207 81 214 223Z" fill="url(#suit)"/>
+  <path d="M280 417 236 444l44 122 44-122Z" fill="#F7F4EC"/>
+  <path d="M236 444 280 417l-22 92-44-36Z" fill="#0D2953"/>
+  <path d="M324 444 280 417l22 92 44-36Z" fill="#0D2953"/>
+  <path d="M271 431h18l-4 14h-10Z" fill="#B08F58"/>
+  <path d="M280 447 262 474l18 62 18-62Z" fill="#C5A572"/>
+  <path d="M280 447v89" stroke="#A8874F" stroke-width="1.4" opacity=".65"/>
+  <path d="M341 554h27v16l-27 6Z" fill="#C5A572"/>
+
+  <path d="M432 78h58M432 90h36" stroke="#C5A572" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+  <circle cx="438" cy="116" r="3" fill="#C5A572"/>
+</svg>

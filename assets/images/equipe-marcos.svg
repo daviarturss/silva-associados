@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 640" width="560" height="640" role="img" aria-labelledby="title desc">
+  <title id="title">Dr. Marcos Vieira</title>
+  <desc id="desc">Retrato ilustrado do advogado Marcos Vieira, de terno grafite, camisa branca e barba.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EDEFF2"/>
+      <stop offset="1" stop-color="#DDE3EA"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#37445B"/>
+      <stop offset="1" stop-color="#1D2636"/>
+    </linearGradient>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#0A1F44" opacity=".05"/>
+    </pattern>
+  </defs>
+  <rect width="560" height="640" fill="url(#bg)"/>
+  <rect width="560" height="640" fill="url(#dots)"/>
+  <circle cx="280" cy="286" r="204" fill="#C9D2DD" opacity=".55"/>
+  <circle cx="280" cy="286" r="221" fill="none" stroke="#C5A572" stroke-opacity=".45"/>
+  <path d="M62 640V318a218 218 0 0 1 436 0v322" fill="none" stroke="#C5A572" stroke-opacity=".3" stroke-width="2"/>
+
+  <path d="M252 342h56v60c0 17-12 29-28 29s-28-12-28-29Z" fill="#7E4E33"/>
+  <path d="M252 356c16 13 40 13 56 0v13c-16 13-40 13-56 0Z" fill="#673E28" opacity=".55"/>
+
+  <ellipse cx="280" cy="270" rx="76" ry="88" fill="#8D5A3B"/>
+  <circle cx="205" cy="279" r="13" fill="#8D5A3B"/>
+  <circle cx="355" cy="279" r="13" fill="#8D5A3B"/>
+
+  <!-- cabelo curto -->
+  <path d="M204 268c-5-70 30-110 76-110 47 0 81 40 76 108-10-36-35-56-76-56-40 0-65 20-76 58Z" fill="#241C19"/>
+  <path d="M208 252c-3 12-3 24 0 35-8-12-7-26 0-35Z" fill="#3A2C27"/>
+
+  <!-- barba -->
+  <path d="M208 300c0 62 30 94 72 94s72-32 72-94c-6 40-34 62-72 62s-66-22-72-62Z" fill="#2B211D" opacity=".92"/>
+  <path d="M258 340c9 8 35 8 44 0-6 16-38 16-44 0Z" fill="#A9584A"/>
+  <path d="M252 326c11 6 45 6 56 0" stroke="#2B211D" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M266 352c9 3 19 3 28 0" stroke="#A9584A" stroke-width="2" stroke-linecap="round" fill="none" opacity=".85"/>
+
+  <path d="M232 262c10-5 20-5 30 0M298 262c10-5 20-5 30 0" stroke="#3B2B24" stroke-width="4.2" stroke-linecap="round" fill="none"/>
+  <circle cx="249" cy="281" r="3.8" fill="#211A17"/>
+  <circle cx="311" cy="281" r="3.8" fill="#211A17"/>
+  <path d="M280 288v17c0 5-3 8-8 9" stroke="#71432B" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+
+  <!-- blazer -->
+  <path d="M66 640c7-142 85-223 214-223s207 81 214 223Z" fill="url(#suit)"/>
+  <path d="M280 420 236 447l44 122 44-122Z" fill="#F7F5EF"/>
+  <path d="M236 447 280 420l-22 92-44-36Z" fill="#111B2A"/>
+  <path d="M324 447 280 420l22 92 44-36Z" fill="#111B2A"/>
+  <path d="M271 434h18l-4 14h-10Z" fill="#B08F58"/>
+  <path d="M280 450 262 477l18 62 18-62Z" fill="#C5A572"/>
+  <path d="M280 450v89" stroke="#A8874F" stroke-width="1.4" opacity=".65"/>
+  <path d="M341 556h27v16l-27 6Z" fill="#C5A572"/>
+
+  <path d="M430 80h58M430 92h36" stroke="#C5A572" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+  <circle cx="436" cy="118" r="3" fill="#C5A572"/>
+</svg>

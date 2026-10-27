@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" aria-hidden="true">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8F3EA"/>
+      <stop offset="1" stop-color="#EDE2D1"/>
+    </linearGradient>
+    <linearGradient id="house" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16386A"/>
+      <stop offset="1" stop-color="#0A1F44"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#0A1F44" opacity=".05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#dots)"/>
+  <circle cx="640" cy="390" r="286" fill="#C5A572" opacity=".18"/>
+  <circle cx="640" cy="390" r="310" fill="none" stroke="#C5A572" stroke-opacity=".45" stroke-width="2"/>
+  <path d="M370 704V400a270 270 0 0 1 540 0v304" fill="none" stroke="#C5A572" stroke-opacity=".35" stroke-width="2"/>
+
+  <!-- casa -->
+  <path d="M452 392 640 236l188 156v268H452Z" fill="url(#house)"/>
+  <path d="M420 400 640 216l220 184" fill="none" stroke="#C5A572" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="596" y="484" width="88" height="140" rx="4" fill="#C5A572"/>
+  <circle cx="668" cy="556" r="5" fill="#6F5326"/>
+  <rect x="490" y="466" width="68" height="62" rx="3" fill="#E9C98F"/>
+  <path d="M524 466v62M490 497h68" stroke="#0A1F44" stroke-width="3" opacity=".35"/>
+  <rect x="722" y="466" width="68" height="62" rx="3" fill="#E9C98F"/>
+  <path d="M756 466v62M722 497h68" stroke="#0A1F44" stroke-width="3" opacity=".35"/>
+  <path d="M592 236h96" stroke="#C5A572" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- coração -->
+  <path d="M640 150c8-14 30-12 30 6 0 14-18 27-30 36-12-9-30-22-30-36 0-18 22-20 30-6Z" fill="#C5A572"/>
+
+  <!-- chave -->
+  <g transform="rotate(32 930 520)">
+    <circle cx="900" cy="520" r="38" fill="none" stroke="#C5A572" stroke-width="14"/>
+    <path d="M934 520h126M1044 520v34M1012 520v24" stroke="#C5A572" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <!-- ramo -->
+  <g stroke="#2F5A50" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M232 664c28-64 68-112 126-150"/>
+    <path d="M276 600c-24-2-42-12-54-30M306 566c-6-24 0-42 16-56M332 540c24 0 42-8 56-24M352 512c-2 24 6 42 22 54" stroke-width="3"/>
+  </g>
+  <g fill="#3D6E60">
+    <ellipse cx="222" cy="572" rx="20" ry="9" transform="rotate(-38 222 572)"/>
+    <ellipse cx="322" cy="510" rx="20" ry="9" transform="rotate(-70 322 510)"/>
+    <ellipse cx="392" cy="488" rx="20" ry="9" transform="rotate(-18 392 488)"/>
+    <ellipse cx="372" cy="568" rx="20" ry="9" transform="rotate(52 372 568)"/>
+  </g>
+
+  <path d="M118 96h94M118 116h58" stroke="#8A6A38" stroke-width="3" stroke-linecap="round" opacity=".5"/>
+  <circle cx="122" cy="158" r="5" fill="#C5A572"/>
+</svg>

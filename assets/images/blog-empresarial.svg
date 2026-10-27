@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" aria-hidden="true">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0C2549"/>
+      <stop offset="1" stop-color="#06132B"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBF7EF"/>
+      <stop offset="1" stop-color="#EFE6D6"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#C5A572" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="pen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E2C58E"/>
+      <stop offset=".55" stop-color="#C5A572"/>
+      <stop offset="1" stop-color="#96713C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <circle cx="1010" cy="158" r="250" fill="none" stroke="#C5A572" stroke-opacity=".22" stroke-width="2"/>
+  <circle cx="1010" cy="158" r="185" fill="#C5A572" opacity=".06"/>
+  <circle cx="104" cy="690" r="130" fill="none" stroke="#C5A572" stroke-opacity=".2"/>
+
+  <!-- pasta -->
+  <g transform="rotate(-7 560 420)">
+    <rect x="286" y="166" width="470" height="540" rx="14" fill="#12305C"/>
+    <rect x="306" y="146" width="470" height="540" rx="14" fill="#F1E7D6" opacity=".16"/>
+    <rect x="270" y="132" width="452" height="548" rx="10" fill="#E3D3B9"/>
+    <rect x="290" y="152" width="452" height="548" rx="8" fill="url(#paper)"/>
+    <path d="M350 228h210M350 264h300M350 292h268" stroke="#0A1F44" stroke-opacity=".72" stroke-width="12" stroke-linecap="round"/>
+    <path d="M350 338h310M350 370h286M350 402h300M350 434h220" stroke="#0A1F44" stroke-opacity=".22" stroke-width="7" stroke-linecap="round"/>
+    <path d="M350 488h310M350 520h260M350 552h300M350 584h190" stroke="#0A1F44" stroke-opacity=".18" stroke-width="7" stroke-linecap="round"/>
+    <path d="M350 642h130" stroke="#C5A572" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="648" cy="596" r="46" fill="#C5A572"/>
+    <circle cx="648" cy="596" r="35" fill="none" stroke="#8A6A38" stroke-width="1.5" stroke-opacity=".7"/>
+    <path d="M648 576v40M634 586h28M638 610h20" stroke="#6F5326" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- caneta -->
+  <g transform="rotate(-38 900 420)">
+    <rect x="852" y="262" width="42" height="300" rx="20" fill="url(#pen)"/>
+    <rect x="860" y="286" width="12" height="236" rx="6" fill="#FFFFFF" opacity=".22"/>
+    <path d="M852 562h42L873 640 852 562Z" fill="#C5A572"/>
+    <path d="M873 640 864 596h18Z" fill="#0A1F44"/>
+    <circle cx="873" cy="270" r="21" fill="#D8BC86"/>
+    <path d="M862 270h22" stroke="#8A6A38" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <path d="M86 96h96M86 116h60" stroke="#C5A572" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+  <circle cx="90" cy="160" r="5" fill="#C5A572"/>
+</svg>

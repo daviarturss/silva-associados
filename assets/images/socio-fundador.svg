@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 760" width="640" height="760" role="img" aria-labelledby="title desc">
+  <title id="title">Dr. Rafael Silva, sócio-fundador</title>
+  <desc id="desc">Retrato ilustrado de um advogado de cabelos grisalhos, óculos e terno azul-marinho.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7F1E6"/>
+      <stop offset="1" stop-color="#EBDFCB"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A3A6D"/>
+      <stop offset="1" stop-color="#0A1F44"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#0A1F44" opacity=".04"/>
+    </pattern>
+  </defs>
+
+  <rect width="640" height="760" fill="url(#bg)"/>
+  <rect width="640" height="760" fill="url(#dots)"/>
+  <circle cx="320" cy="330" r="238" fill="#E6D6B8" opacity=".72"/>
+  <circle cx="320" cy="330" r="256" fill="none" stroke="#C5A572" stroke-opacity=".45"/>
+  <path d="M84 760V362a236 236 0 0 1 472 0v398" fill="none" stroke="#C5A572" stroke-opacity=".35" stroke-width="2"/>
+  <path d="M42 92h70M42 106h44" stroke="#C5A572" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+  <circle cx="46" cy="136" r="3.5" fill="#C5A572"/>
+
+  <!-- pescoço -->
+  <path d="M286 404h68v74c0 20-15 34-34 34s-34-14-34-34Z" fill="#AE714A"/>
+  <path d="M286 420c19 16 45 16 68 0v16c-19 16-49 16-68 0Z" fill="#955C3C" opacity=".5"/>
+
+  <!-- cabeça -->
+  <ellipse cx="320" cy="316" rx="87" ry="101" fill="#C08A60"/>
+  <circle cx="234" cy="326" r="15" fill="#C08A60"/>
+  <circle cx="406" cy="326" r="15" fill="#C08A60"/>
+  <path d="M234 316c-4-94 40-138 88-138 51 0 95 44 86 134-13-45-43-64-88-64-46 0-74 20-86 68Z" fill="#6E6C69"/>
+  <path d="M238 292c-8 18-9 38-4 54-14-18-12-44 4-54ZM399 286c9 17 10 38 4 55 15-17 13-43-4-55Z" fill="#8F8D89"/>
+  <path d="M284 252c13-16 30-24 51-24M348 232c12 2 22 8 30 17" stroke="#A9A7A3" stroke-width="2" fill="none" stroke-linecap="round" opacity=".8"/>
+
+  <!-- sobrancelhas, olhos -->
+  <path d="M266 304c11-6 23-6 34 0M340 304c11-6 23-6 34 0" stroke="#4D3B2F" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  <circle cx="285" cy="326" r="4" fill="#2F2723"/>
+  <circle cx="357" cy="326" r="4" fill="#2F2723"/>
+  <path d="M268 326h22M350 326h22" stroke="#8C563C" stroke-width="1.4" opacity=".4"/>
+
+  <!-- óculos -->
+  <rect x="256" y="313" width="56" height="38" rx="13" fill="#FFFFFF" fill-opacity=".07" stroke="#6F5326" stroke-width="2.6"/>
+  <rect x="330" y="313" width="56" height="38" rx="13" fill="#FFFFFF" fill-opacity=".07" stroke="#6F5326" stroke-width="2.6"/>
+  <path d="M312 328h18M256 322l-16-6M386 322l16-6" stroke="#6F5326" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- nariz e boca -->
+  <path d="M320 332v20c0 6-4 9-9 11" stroke="#9A6240" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M296 378c15 8 33 8 48 0" stroke="#8C5540" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+  <path d="M300 398c13 4 27 4 40 0" stroke="#B67D56" stroke-width="2" stroke-linecap="round" fill="none" opacity=".55"/>
+  <path d="M290 360c-4 10-5 20-3 29M350 360c4 10 5 20 3 29" stroke="#A26A48" stroke-width="1.6" stroke-linecap="round" fill="none" opacity=".45"/>
+
+  <!-- paletó -->
+  <path d="M98 760c8-160 96-252 222-252s214 92 222 252Z" fill="url(#suit)"/>
+  <path d="M320 508 272 540l48 138 48-138Z" fill="#F7F4EC"/>
+  <path d="M272 540 320 508l-24 104-51-40Z" fill="#0D2953"/>
+  <path d="M368 540 320 508l24 104 51-40Z" fill="#0D2953"/>
+  <path d="M310 526h20l-4 16h-12Z" fill="#B08F58"/>
+  <path d="M320 544 301 574l19 70 19-70Z" fill="#C5A572"/>
+  <path d="M320 544v100" stroke="#A8874F" stroke-width="1.6" opacity=".65"/>
+  <path d="M388 642h30v18l-30 7Z" fill="#C5A572"/>
+  <circle cx="320" cy="680" r="3.4" fill="#0A1F44" stroke="#C5A572" stroke-width="1.2"/>
+
+  <path d="M480 120h68M480 134h42" stroke="#C5A572" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+  <circle cx="486" cy="164" r="3.5" fill="#C5A572"/>
+</svg>
